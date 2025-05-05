@@ -7,6 +7,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import { MouseParallax } from "react-just-parallax";
 import Generating from "./Generating";
+import Notification from "./Notification";
 {
   /* <MouseParallax strength={0.07}></MouseParallax> */
 }
@@ -65,13 +66,12 @@ const Hero = () => {
                       </li>
                     ))}
                   </ul>
-                  <ul className="hidden absolute -right-[5.5rem] top-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl lg:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt="icon" />
-                      </li>
-                    ))}
-                  </ul>
+                </ScrollParallax>
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] lg:flex"
+                    title="Code Generation"
+                  />
                 </ScrollParallax>
               </div>
             </div>
