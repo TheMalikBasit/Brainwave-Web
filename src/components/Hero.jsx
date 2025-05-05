@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { MouseParallax } from "react-just-parallax";
 import Generating from "./Generating";
 import Notification from "./Notification";
+import CompanyLogos from "./CompanyLogos";
 {
   /* <MouseParallax strength={0.07}></MouseParallax> */
 }
@@ -88,6 +89,7 @@ const Hero = () => {
           </div>
           <BackgroundCircles />
         </div>
+        <CompanyLogos className="hidden relative z-20 lg:block mt-20" />
       </div>
       <BottomLine />
     </Section>
