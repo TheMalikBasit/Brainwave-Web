@@ -6,9 +6,12 @@ const CompanyLogos = ({ className }) => {
       <h5 className="tagline mb-6 text-center text-n-1/50">
         Helping people making beautiful content at
       </h5>
-      <ul className="flex justify-between items-center">
+      <ul className="flex">
         {companyLogos.map((logo, index) => (
-          <li className="">
+          <li
+            key={index}
+            className="flex flex-1 justify-between items-center h-[8.5rem]"
+          >
             <img src={logo} width={134} height={28} alt={logo} />
           </li>
         ))}
