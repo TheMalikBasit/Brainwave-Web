@@ -19,6 +19,7 @@ const Benefits = () => {
             >
               <div className="relative z-2 flex flex-col min-h-[22rem]">
                 <h5>{item.title}</h5>
+                <h2>{item.text}</h2>
               </div>
             </div>
           ))}
