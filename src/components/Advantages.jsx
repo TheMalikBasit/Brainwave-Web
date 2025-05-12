@@ -10,6 +10,9 @@ const Advantages = () => {
             <h5 className="mt-6 text-center text-n-1/50">
               Brainwave unlocks the potential of AI-powered applications
             </h5>
+            <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+              <img src="" alt="" />
+            </div>
           </div>
         </div>
       </div>
