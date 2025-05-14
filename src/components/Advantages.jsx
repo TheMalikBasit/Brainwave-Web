@@ -114,13 +114,17 @@ const Advantages = () => {
                 </ul>
               </div>
               <div className="relative">
-                <img
-                  className="w-full h-full object-cover"
-                  src={service3}
-                  width={630}
-                  height={750}
-                  alt="Smart AI 3"
-                />
+                <div className="h-[26rem]">
+                  <img
+                    className="w-full h-full object-cover rounded-2xl bg-n-8"
+                    src={service3}
+                    width={630}
+                    height={750}
+                    alt="Smart AI 3"
+                  />
+                  <VideoBar />
+                  <VideoChatMessage />
+                </div>
               </div>
               <div className=""></div>
             </div>
