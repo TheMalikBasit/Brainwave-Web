@@ -4,7 +4,7 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { MouseParallax } from "react-just-parallax";
 import Generating from "./Generating";
 import Notification from "./Notification";
