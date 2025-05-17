@@ -3,7 +3,7 @@ import Section from "./Section";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import TagLine from "./Tagline";
-
+import Button from "./Button";
 const Functionalities = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
@@ -62,6 +62,9 @@ const Functionalities = () => {
               </div>
             );
           })}
+        </div>
+        <div className="flex justify-center mt-20">
+          <Button>OUR ROADMAP</Button>
         </div>
       </div>
     </Section>

@@ -3,6 +3,8 @@ import Advantages from "./components/Advantages";
 import Benefits from "./components/Benefits";
 import Button from "./components/Button";
 import Collaboration from "./components/Collaboration";
+import FooterOne from "./components/FooterOne";
+import FooterTwo from "./components/FooterTwo";
 import Functionalities from "./components/Functionalities";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -18,6 +20,8 @@ const App = () => {
         <Advantages />
         <Payment />
         <Functionalities />
+        <FooterOne />
+        <FooterTwo />
       </div>
       <ButtonGradient />
     </>
