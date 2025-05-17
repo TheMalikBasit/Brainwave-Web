@@ -27,7 +27,7 @@ const PaymentLists = () => {
 
           <Button
             className="mb-4 w-full"
-            href={item.price ? "/Pricing" : "mailto:probasit03@gmail.com"}
+            href={item.price ? "/pricing" : "mailto:probasit03@gmail.com"}
             white={!!item.price}
           >
             {item.price ? "Get Started" : "Contact Us"}
